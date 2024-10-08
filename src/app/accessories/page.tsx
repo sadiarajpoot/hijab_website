@@ -11,9 +11,12 @@ import image09 from "../images/pin 2.webp"
 import image10 from "../images/pin3.webp"
 import image11 from "../images/pin 4.webp"
 import image12 from "../images/pin 5.webp"
+import Navbar from "../components/Header";
+import Footer from "../components/Footer";
 export default function Accessories(){
     return(
         <>
+        <Navbar />
          <section className="py-20">
                 <div className="max-w-6xl mx-auto text-center">
                     <h2 className="text-3xl font-bold mb-10 mt-20 heading-features font-kaushan font-700">Our Hijabs Accessories</h2>
@@ -198,7 +201,7 @@ export default function Accessories(){
                     </div>              
                 </div>
             </section>
-
+            <Footer />
            </>
     );
 }

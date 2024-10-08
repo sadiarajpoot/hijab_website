@@ -21,11 +21,14 @@ import image17 from "../images/abaya 3.webp";
 import image18 from "../images/abaya 4.webp";
 import image19 from "../images/abaya 5.webp";
 import image20 from "../images/abaya 6.webp";
+import Footer from "../components/Footer";
+import Navbar from "../components/Header";
 
 
 export default function Categories() {
     return (
         <>
+        <Navbar/>
             <section className="py-20">
                 <div className="max-w-6xl mx-auto text-center">
                     <h2 className="text-3xl font-bold mb-10 mt-20 heading-features font-kaushan font-700">Categories of Our Hijabs</h2>
@@ -324,6 +327,7 @@ export default function Categories() {
                     </div>              
                 </div>
             </section>
+            <Footer />
         </>
     );
 }
