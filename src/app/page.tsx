@@ -34,10 +34,13 @@ import home28 from "../app/images/new 7.webp"
 import home29 from "../app/images/new 8.webp"
 import home30 from "../app/images/new 9.webp"
 import home31 from "../app/images/new 10.webp"
+import Navbar from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
     <>
+    <Navbar />
       <div>
       <Image src={homePic} alt="home" className="home width={300} height={200} shadow-lg shadow-black-500/90 bg-opacity-20"/>
 
@@ -542,6 +545,7 @@ export default function Home() {
             </section>
       </div>
     </div>
+    <Footer />
     </>
   );
 }
