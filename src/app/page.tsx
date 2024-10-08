@@ -1,7 +1,7 @@
 import Image from "next/image";
 import homePic from "../app/images/home.jpg"
 import Abaya2 from "../app/images/abaya 2.webp"
-import  hijab1 from "../app/images/girls new2e.jpg"
+// import  hijab1 from "../app/images/girls new2e.jpg"
 import home2 from  "../app/images/home 2 abaya.webp"
 import home3 from  "../app/images/home abaya 3.webp"
 import home4 from  "../app/images/home abaya 4.webp"
@@ -10,7 +10,7 @@ import home6 from  "../app/images/home abaya 6.webp"
 import home7 from "../app/images/home hijab 2.webp"
 import home8 from "../app/images/home hijab 3.webp"
 import home9 from "../app/images/home hijab 4.webp"
-import home11 from "../app/images/home hijab 6.webp"
+// import home11 from "../app/images/home hijab 6.webp"
 import home10 from "../app/images/home hibjab 5.webp"
 // next //
 import home12 from "../app/images/niqab 1.webp"
